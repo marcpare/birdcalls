@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vashon Bird Calls</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      
+      <script>
+    
+      var calls = [
+      {
+        name: 'Pine Siskin',
+        song_url: 'http://www.birdweb.org/birdweb/sounds/PISI01.mp3',
+        image_url: 'http://www.birdweb.org/birdweb/images/pisi_rom1_x.jpg'
+      },
+      {
+        name: 'House Sparrow',
+        song_url: 'http://www.birdweb.org/birdweb/sounds/hosp1.mp3',
+        image_url: 'http://www.birdweb.org/birdweb/images/HOSP_m_lb.jpg'
+      },
+      {
+        name: 'American Goldfinch',
+        song_url: 'http://www.birdweb.org/birdweb/sounds/amgo1.mp3',
+        image_url: 'http://www.birdweb.org/birdweb/images/AMGO_tg.jpg'
+      },
+      {
+        name: 'Purple Finch',
+        song_url: 'http://www.birdweb.org/birdweb/sounds/PUFI01.mp3',
+        image_url: 'http://www.birdweb.org/birdweb/images/PUFI_jh.jpg'
+      },
+      {
+        name: 'House Finch',
+        image_url: 'http://www.birdweb.org/birdweb/images/HOFI_ad2_gth.jpg',
+        song_url: 'http://www.birdweb.org/birdweb/sounds/HOFI01.mp3'
+      },
+      {
+        name: 'Brown-headed Cowbird',
+        image_url: 'http://www.birdweb.org/birdweb/images/BHCO_jh.jpg',
+        song_url: 'http://www.birdweb.org/birdweb/sounds/BHCO01.mp3'
+      }
+      ];
+    
+      </script>
+      
+      <style>
+      body { padding-top: 20px; background-color: #eee;}
+      .btn { margin-bottom: 20px;}
+      </style>
+  </head>
+  <body>
+    <div class="container" id="js-container"></div>
+    
+    <script type="text/template" id="template-play">
+      <audio id="demo" src="<%= call.song_url %>"></audio>
+      <button onclick="document.getElementById('demo').play()"  class="btn btn-primary btn-block btn-lg">Play the Audio</button>
+      <button onclick="document.getElementById('demo').pause()" class="btn btn-primary btn-block btn-lg">Pause the Audio</button>
+      <button type="button" class="btn btn-primary btn-block btn-lg" id="js-reveal">Reveal</button>
+    </script>
+    
+    <script type="text/template" id="template-revealed">
+      <h1><%= call.name %></h1>
+      <p><img src="<%= call.image_url %>"></img></p>
+      <button type="button" class="btn btn-primary btn-block btn-lg" id="js-next">Next</button>
+    </script>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+    <script src="underscore.js"></script>
+    
+    <script>
+    
+    var $el = $('#js-container');
+    var playTemplate = _.template($('#template-play').html());
+    var revealedTemplate = _.template($('#template-revealed').html());
+    var call;
+    var nextCall = (function () {
+      var i = 0, k;
+      return function () {
+        do { k = _.random(calls.length-1); } while (k == i);
+        i = k;
+        return calls[i];        
+      }
+    }());
+    
+    var showPlay = function () {
+      call = nextCall();
+      $el.html(playTemplate({call:call}));
+      $('#js-reveal').on('click', function () {
+        showRevealed();
+      });
+    };
+    
+    var showRevealed = function () {
+      $el.html(revealedTemplate({call:call}));
+      $('#js-next').on('click', function () {
+        showPlay();
+      });
+    }
+    
+    showPlay();
+    
+    </script>
+    
+  </body>
+</html>
