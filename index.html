@@ -16,61 +16,58 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
       
-      <script>
-    
-      var calls = [
-      {
-        name: 'Pine Siskin',
-        song_url: 'http://www.birdweb.org/birdweb/sounds/PISI01.mp3',
-        image_url: 'http://www.birdweb.org/birdweb/images/pisi_rom1_x.jpg'
-      },
-      {
-        name: 'House Sparrow',
-        song_url: 'http://www.birdweb.org/birdweb/sounds/hosp1.mp3',
-        image_url: 'http://www.birdweb.org/birdweb/images/HOSP_m_lb.jpg'
-      },
-      {
-        name: 'American Goldfinch',
-        song_url: 'http://www.birdweb.org/birdweb/sounds/amgo1.mp3',
-        image_url: 'http://www.birdweb.org/birdweb/images/AMGO_tg.jpg'
-      },
-      {
-        name: 'Purple Finch',
-        song_url: 'http://www.birdweb.org/birdweb/sounds/PUFI01.mp3',
-        image_url: 'http://www.birdweb.org/birdweb/images/PUFI_jh.jpg'
-      },
-      {
-        name: 'House Finch',
-        image_url: 'http://www.birdweb.org/birdweb/images/HOFI_ad2_gth.jpg',
-        song_url: 'http://www.birdweb.org/birdweb/sounds/HOFI01.mp3'
-      },
-      {
-        name: 'Brown-headed Cowbird',
-        image_url: 'http://www.birdweb.org/birdweb/images/BHCO_jh.jpg',
-        song_url: 'http://www.birdweb.org/birdweb/sounds/BHCO01.mp3'
-      }
-      ];
-    
-      </script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
       
       <style>
       body { padding-top: 20px; background-color: #eee;}
       .btn { margin-bottom: 20px;}
+      .main-menu { margin: 0; padding: 0;}
+      .main-menu-item {
+        cursor: pointer;
+        list-style-type: none;
+        border: 1px solid #ccc;
+        margin-top: -1px;
+        padding: 10px;
+        position: relative;
+      }
+      .main-menu-chevron {
+        position: absolute;
+        top: 35%;
+        right: 10px;
+        color: #aaa;
+      }
       </style>
   </head>
   <body>
     <div class="container" id="js-container"></div>
+        
+    <script type="text/template" id="template-main-menu">
+      <h2>Learn</h2>
+      <h1>Vashon Bird Calls</h1>
+      <p>Simple audio flashcards of the most common birds on Vashon this April, May, &amp; June.</p>
+      
+      <ul class="main-menu">
+        <% _.each(groups, function (group) { %>
+        <li class="main-menu-item" data-url=<%= group.url %>>
+          <h4><%= group.title %></h4>
+          <p><%= group.subtitle %></p>
+          <p><em><%= group.subtitle2 %></em></p>
+          <i class="fa fa-chevron-right main-menu-chevron fa-3x"></i>
+        </li>
+        <% }) %>
+      </ul>
+    </script>
     
     <script type="text/template" id="template-play">
-      <audio id="demo" src="<%= call.song_url %>"></audio>
+      <audio id="demo" src="<%= call.call %>"></audio>
       <button onclick="document.getElementById('demo').play()"  class="btn btn-primary btn-block btn-lg">Play the Audio</button>
       <button onclick="document.getElementById('demo').pause()" class="btn btn-primary btn-block btn-lg">Pause the Audio</button>
       <button type="button" class="btn btn-primary btn-block btn-lg" id="js-reveal">Reveal</button>
     </script>
     
     <script type="text/template" id="template-revealed">
-      <h1><%= call.name %></h1>
-      <p><img src="<%= call.image_url %>"></img></p>
+      <h1><%= call.common_name %></h1>
+      <p><img src="<%= _.first(call.images).src %>"></img></p>
       <button type="button" class="btn btn-primary btn-block btn-lg" id="js-next">Next</button>
     </script>
     
@@ -82,24 +79,19 @@
     
     <script>
     
-    $.ajax({
-      dataType: 'json',
-      url: 'data/anatidae.json',
-      success: function (data) {
-        console.log(data);
-      }
-    })
+    BC = {};
     
     var $el = $('#js-container');
     var playTemplate = _.template($('#template-play').html());
     var revealedTemplate = _.template($('#template-revealed').html());
+    var mainMenuTemplate = _.template($('#template-main-menu').html());
     var call;
     var nextCall = (function () {
       var i = 0, k;
       return function () {
-        do { k = _.random(calls.length-1); } while (k == i);
+        do { k = _.random(BC.calls.length-1); } while (k == i);
         i = k;
-        return calls[i];        
+        return BC.calls[i];        
       }
     }());
     
@@ -118,7 +110,45 @@
       });
     }
     
-    showPlay();
+    var showMainMenu = function () {
+      $el.html(mainMenuTemplate({
+        groups: [
+        {
+          title: 'Song birds',
+          subtitle: '49 common song birds',
+          subtitle2: 'Flycatchers, Songbirds and Allies (Order Passeriformes)',
+          url: 'data/passeriformes.json'
+        },
+        {
+          title: 'Shore birds',
+          subtitle: '14 birds you\'ll find on the beach',
+          subtitle2: 'Shorebirds, Gulls, Auks and Allies (Order Charadriiformes)',
+          url: 'data/charadriiformes.json'
+        },
+        {
+          title: 'Ducks, Geese, and Swans',
+          subtitle: '19 plump birds that sometimes quack',
+          subtitle2: 'Waterfowl (Order Anseriformes)',
+          url: 'data/anatidae.json'
+        }
+        ]
+      }));
+      $('.main-menu-item').on('click', function () {
+        var url = $(this).data('url');
+        
+        $.ajax({
+          dataType: 'json',
+          url:  url,
+          success: function (birdCallData) {
+            BC.calls = birdCallData;  
+            showPlay();
+          }
+        });
+      });
+    };
+    
+    showMainMenu();
+
     
     </script>
     
