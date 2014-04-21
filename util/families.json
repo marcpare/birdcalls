@@ -1,0 +1,322 @@
+[
+    {
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "short_name": "emberizidae",
+        "url": "http://birdweb.org/birdweb/family/emberizidae"
+    },
+    {
+        "family": "Cuckoos (Family Cuculidae)",
+        "short_name": "cuculidae",
+        "url": "http://birdweb.org/birdweb/family/cuculidae"
+    },
+    {
+        "family": "Ibises (Family Threskiornithidae)",
+        "short_name": "threskiornithidae",
+        "url": "http://birdweb.org/birdweb/family/threskiornithidae"
+    },
+    {
+        "family": "Boobies and Gannets (Family Sulidae)",
+        "short_name": "sulidae",
+        "url": "http://birdweb.org/birdweb/family/sulidae"
+    },
+    {
+        "family": "Storm-Petrels (Family Hydrobatidae)",
+        "short_name": "hydrobatidae",
+        "url": "http://birdweb.org/birdweb/family/hydrobatidae"
+    },
+    {
+        "family": "New World Quail (Family Odontophoridae)",
+        "short_name": "odontophoridae",
+        "url": "http://birdweb.org/birdweb/family/odontophoridae"
+    },
+    {
+        "family": "Skuas and Jaegers (Family Stercorariidae)",
+        "short_name": "stercorariidae",
+        "url": "http://birdweb.org/birdweb/family/stercorariidae"
+    },
+    {
+        "family": "Falcons and Allies (Family Falconidae)",
+        "short_name": "falconidae",
+        "url": "http://birdweb.org/birdweb/family/falconidae"
+    },
+    {
+        "family": "Chickadees (Family Paridae)",
+        "short_name": "paridae",
+        "url": "http://birdweb.org/birdweb/family/paridae"
+    },
+    {
+        "family": "Silky-flycatchers (Family Ptilogonatidae)",
+        "short_name": "ptilogonatidae",
+        "url": "http://birdweb.org/birdweb/family/ptilogonatidae"
+    },
+    {
+        "family": "Pelicans (Family Pelecanidae)",
+        "short_name": "pelecanidae",
+        "url": "http://birdweb.org/birdweb/family/pelecanidae"
+    },
+    {
+        "family": "Herons, Bitterns and Allies (Family Ardeidae)",
+        "short_name": "ardeidae",
+        "url": "http://birdweb.org/birdweb/family/ardeidae"
+    },
+    {
+        "family": "Bushtits (Family Aegithalidae)",
+        "short_name": "aegithalidae",
+        "url": "http://birdweb.org/birdweb/family/aegithalidae"
+    },
+    {
+        "family": "Hawks, Kites, Eagles and Allies (Family Accipitridae)",
+        "short_name": "accipitridae",
+        "url": "http://birdweb.org/birdweb/family/accipitridae"
+    },
+    {
+        "family": "Gnatcatchers (Family Sylviidae)",
+        "short_name": "sylviidae",
+        "url": "http://birdweb.org/birdweb/family/sylviidae"
+    },
+    {
+        "family": "Barn Owls (Family Tytonidae)",
+        "short_name": "tytonidae",
+        "url": "http://birdweb.org/birdweb/family/tytonidae"
+    },
+    {
+        "family": "Cranes (Family Gruidae)",
+        "short_name": "gruidae",
+        "url": "http://birdweb.org/birdweb/family/gruidae"
+    },
+    {
+        "family": "Kinglets (Family Regulidae)",
+        "short_name": "regulidae",
+        "url": "http://birdweb.org/birdweb/family/regulidae"
+    },
+    {
+        "family": "Grebes (Family Podicipedidae)",
+        "short_name": "podicipedidae",
+        "url": "http://birdweb.org/birdweb/family/podicipedidae"
+    },
+    {
+        "family": "Stilts and Avocets (Family Recurvirostridae)",
+        "short_name": "recurvirostridae",
+        "url": "http://birdweb.org/birdweb/family/recurvirostridae"
+    },
+    {
+        "family": "Hummingbirds (Family Trochilidae)",
+        "short_name": "trochilidae",
+        "url": "http://birdweb.org/birdweb/family/trochilidae"
+    },
+    {
+        "family": "Plovers (Family Charadriidae)",
+        "short_name": "charadriidae",
+        "url": "http://birdweb.org/birdweb/family/charadriidae"
+    },
+    {
+        "family": "Wagtails and Pipits (Family Motacillidae)",
+        "short_name": "motacillidae",
+        "url": "http://birdweb.org/birdweb/family/motacillidae"
+    },
+    {
+        "family": "Kingfishers (Family Alcedinidae)",
+        "short_name": "alcedinidae",
+        "url": "http://birdweb.org/birdweb/family/alcedinidae"
+    },
+    {
+        "family": "Oystercatchers (Family Haematopodidae)",
+        "short_name": "haematopodidae",
+        "url": "http://birdweb.org/birdweb/family/haematopodidae"
+    },
+    {
+        "family": "Tyrant Flycatchers (Family Tyrannidae)",
+        "short_name": "tyrannidae",
+        "url": "http://birdweb.org/birdweb/family/tyrannidae"
+    },
+    {
+        "family": "Warblers (Family Parulidae)",
+        "short_name": "parulidae",
+        "url": "http://birdweb.org/birdweb/family/parulidae"
+    },
+    {
+        "family": "Nuthatches (Family Sittidae)",
+        "short_name": "sittidae",
+        "url": "http://birdweb.org/birdweb/family/sittidae"
+    },
+    {
+        "family": "Tropicbirds (Family Phaethontidae)",
+        "short_name": "phaethontidae",
+        "url": "http://birdweb.org/birdweb/family/phaethontidae"
+    },
+    {
+        "family": "Gulls and Terns (Family Laridae)",
+        "short_name": "laridae",
+        "url": "http://birdweb.org/birdweb/family/laridae"
+    },
+    {
+        "family": "Shearwaters and Petrels (Family Procellariidae)",
+        "short_name": "procellariidae",
+        "url": "http://birdweb.org/birdweb/family/procellariidae"
+    },
+    {
+        "family": "Mockingbirds, Thrashers and Allies (Family Mimidae)",
+        "short_name": "mimidae",
+        "url": "http://birdweb.org/birdweb/family/mimidae"
+    },
+    {
+        "family": "Swallows (Family Hirundinidae)",
+        "short_name": "hirundinidae",
+        "url": "http://birdweb.org/birdweb/family/hirundinidae"
+    },
+    {
+        "family": "Albatrosses (Family Diomedeidae)",
+        "short_name": "diomedeidae",
+        "url": "http://birdweb.org/birdweb/family/diomedeidae"
+    },
+    {
+        "family": "Tanagers (Family Thraupidae)",
+        "short_name": "thraupidae",
+        "url": "http://birdweb.org/birdweb/family/thraupidae"
+    },
+    {
+        "family": "Frigatebirds (Family Fregatidae)",
+        "short_name": "fregatidae",
+        "url": "http://birdweb.org/birdweb/family/fregatidae"
+    },
+    {
+        "family": "Shrikes (Family Laniidae)",
+        "short_name": "laniidae",
+        "url": "http://birdweb.org/birdweb/family/laniidae"
+    },
+    {
+        "family": "Typical Owls (Family Strigidae)",
+        "short_name": "strigidae",
+        "url": "http://birdweb.org/birdweb/family/strigidae"
+    },
+    {
+        "family": "Waxwings (Family Bombycillidae)",
+        "short_name": "bombycillidae",
+        "url": "http://birdweb.org/birdweb/family/bombycillidae"
+    },
+    {
+        "family": "Nighthawks and Poorwills (Family Caprimulgidae)",
+        "short_name": "caprimulgidae",
+        "url": "http://birdweb.org/birdweb/family/caprimulgidae"
+    },
+    {
+        "family": "Partridges, Grouse and Turkeys (Family Phasianidae)",
+        "short_name": "phasianidae",
+        "url": "http://birdweb.org/birdweb/family/phasianidae"
+    },
+    {
+        "family": "Ducks, Geese and Swans (Family Anatidae)",
+        "short_name": "anatidae",
+        "url": "http://birdweb.org/birdweb/family/anatidae"
+    },
+    {
+        "family": "Dippers (Family Cinclidae)",
+        "short_name": "cinclidae",
+        "url": "http://birdweb.org/birdweb/family/cinclidae"
+    },
+    {
+        "family": "Auks, Murres and Puffins (Family Alcidae)",
+        "short_name": "alcidae",
+        "url": "http://birdweb.org/birdweb/family/alcidae"
+    },
+    {
+        "family": "Old World Sparrows (Family Passeridae)",
+        "short_name": "passeridae",
+        "url": "http://birdweb.org/birdweb/family/passeridae"
+    },
+    {
+        "family": "Pigeons and Doves (Family Columbidae)",
+        "short_name": "columbidae",
+        "url": "http://birdweb.org/birdweb/family/columbidae"
+    },
+    {
+        "family": "Grosbeaks, Buntings and Allies (Family Cardinalidae)",
+        "short_name": "cardinalidae",
+        "url": "http://birdweb.org/birdweb/family/cardinalidae"
+    },
+    {
+        "family": "Cormorants (Family Phalacrocoracidae)",
+        "short_name": "phalacrocoracidae",
+        "url": "http://birdweb.org/birdweb/family/phalacrocoracidae"
+    },
+    {
+        "family": "Rails and Coots (Family Rallidae)",
+        "short_name": "rallidae",
+        "url": "http://birdweb.org/birdweb/family/rallidae"
+    },
+    {
+        "family": "Loons (Family Gaviidae)",
+        "short_name": "gaviidae",
+        "url": "http://birdweb.org/birdweb/family/gaviidae"
+    },
+    {
+        "family": "Sandpipers, Phalaropes and Allies (Family Scolopacidae)",
+        "short_name": "scolopacidae",
+        "url": "http://birdweb.org/birdweb/family/scolopacidae"
+    },
+    {
+        "family": "Accentors (Family Prunellidae)",
+        "short_name": "prunellidae",
+        "url": "http://birdweb.org/birdweb/family/prunellidae"
+    },
+    {
+        "family": "Starlings (Family Sturnidae)",
+        "short_name": "sturnidae",
+        "url": "http://birdweb.org/birdweb/family/sturnidae"
+    },
+    {
+        "family": "Vireos (Family Vireonidae)",
+        "short_name": "vireonidae",
+        "url": "http://birdweb.org/birdweb/family/vireonidae"
+    },
+    {
+        "family": "Finches and Allies (Family Fringillidae)",
+        "short_name": "fringillidae",
+        "url": "http://birdweb.org/birdweb/family/fringillidae"
+    },
+    {
+        "family": "Larks (Family Alaudidae)",
+        "short_name": "alaudidae",
+        "url": "http://birdweb.org/birdweb/family/alaudidae"
+    },
+    {
+        "family": "Creepers (Family Certhiidae)",
+        "short_name": "certhiidae",
+        "url": "http://birdweb.org/birdweb/family/certhiidae"
+    },
+    {
+        "family": "Wrens (Family Troglodytidae)",
+        "short_name": "troglodytidae",
+        "url": "http://birdweb.org/birdweb/family/troglodytidae"
+    },
+    {
+        "family": "Crows, Jays and Allies (Family Corvidae)",
+        "short_name": "corvidae",
+        "url": "http://birdweb.org/birdweb/family/corvidae"
+    },
+    {
+        "family": "New World Vultures (Family Cathartidae)",
+        "short_name": "cathartidae",
+        "url": "http://birdweb.org/birdweb/family/cathartidae"
+    },
+    {
+        "family": "Swifts (Family Apodidae)",
+        "short_name": "apodidae",
+        "url": "http://birdweb.org/birdweb/family/apodidae"
+    },
+    {
+        "family": "Thrushes (Family Turdidae)",
+        "short_name": "turdidae",
+        "url": "http://birdweb.org/birdweb/family/turdidae"
+    },
+    {
+        "family": "Blackbirds and Allies (Family Icteridae)",
+        "short_name": "icteridae",
+        "url": "http://birdweb.org/birdweb/family/icteridae"
+    },
+    {
+        "family": "Woodpeckers (Family Picidae)",
+        "short_name": "picidae",
+        "url": "http://birdweb.org/birdweb/family/picidae"
+    }
+]
