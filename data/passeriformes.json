@@ -1,0 +1,1135 @@
+[
+    {
+        "call": "http://birdweb.org/birdweb/sounds/BTYW01.mp3",
+        "common_name": "Black-throated Gray Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/btyw_gl_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/BTYW_gl2.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/BTYW_jf_gt.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/vgsw1.mp3",
+        "common_name": "Violet-green Swallow",
+        "family": "Swallows (Family Hirundinidae)",
+        "images": [
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/VGSW_jh.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/VGSW_f_tg.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/VGSW_fl_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/BHGR01.mp3",
+        "common_name": "Black-headed Grosbeak",
+        "family": "Grosbeaks, Buntings and Allies (Family Cardinalidae)",
+        "images": [
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/BHGR_f_lb.jpg"
+            },
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/BHGR_m_lb.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/BHGR_jh.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/BHGR_f_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": false,
+        "common_name": "Northwestern Crow",
+        "family": "Crows, Jays and Allies (Family Corvidae)",
+        "images": [
+            {
+                "contributor": "Dennis Paulson",
+                "contributor_url": "http://www.pugetsound.edu/academics/academic-resources/slater-museum/",
+                "src": "http://birdweb.org/birdweb/images/nocrdp_x.jpg"
+            },
+            {
+                "contributor": "Seattle Audubon",
+                "contributor_url": "http://seattleaudubon.org/sas/",
+                "src": "http://birdweb.org/birdweb/images/nocr2_x.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/hosp1.mp3",
+        "common_name": "House Sparrow",
+        "family": "Old World Sparrows (Family Passeridae)",
+        "images": [
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/HOSP_m_lb.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/HOSP_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/HOSP_f_tg.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/HOSP_w_gt.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/HOSP_j_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/mawa.mp3",
+        "common_name": "MacGillivray's Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/MGWA_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/MGWA_f_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/rwbl1.mp3",
+        "common_name": "Red-winged Blackbird",
+        "family": "Blackbirds and Allies (Family Icteridae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/RWBL_f_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/RWBL_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/RWBL_f_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/RWBL_gl2.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/RWBL_mfl_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/RWBL_ffl_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/GCSP01.mp3",
+        "common_name": "Golden-crowned Sparrow",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/GCSP_ad_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/GCSP_w_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/GCSP_w2_gth.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/GCSP_jw_gt.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/YRWA01.mp3",
+        "common_name": "Yellow-rumped Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/YRWA_Aud_m_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/YRWA_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/YRWA_f_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/YRWA_j_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/YRWA_jfl_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/SAVS01.mp3",
+        "common_name": "Savannah Sparrow",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/SAVS_ad_gth.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/FOSP01.mp3",
+        "common_name": "Fox Sparrow",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/FOSP_jh.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/FOSP_gt.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/rcki1.mp3",
+        "common_name": "Ruby-crowned Kinglet",
+        "family": "Kinglets (Family Regulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/RCKI_a_gth.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/wiwr1.mp3",
+        "common_name": "Pacific Wren",
+        "family": "Wrens (Family Troglodytidae)",
+        "images": [
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/PAWR_gt.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/TRES01.mp3",
+        "common_name": "Tree Swallow",
+        "family": "Swallows (Family Hirundinidae)",
+        "images": [
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/TRES_tg.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/TRES_fl_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/TRES_j_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/amcr1.mp3",
+        "common_name": "American Crow",
+        "family": "Crows, Jays and Allies (Family Corvidae)",
+        "images": [
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/AMCR_tg.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/AMCR_fl_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/clsw1.mp3",
+        "common_name": "Cliff Swallow",
+        "family": "Swallows (Family Hirundinidae)",
+        "images": [
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/CLSW_fl_gt.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/CLSW_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/CLSW_fl_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/CLSW_j_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/spto1.mp3",
+        "common_name": "Spotted Towhee",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/SPTO_ad_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/SPTO_j_gl.jpg"
+            },
+            {
+                "contributor": "Ramona Delerme",
+                "contributor_url": "http://flickr.com/photos/11339106@N03/",
+                "src": "http://birdweb.org/birdweb/images/spto_rom_x.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/amgo1.mp3",
+        "common_name": "American Goldfinch",
+        "family": "Finches and Allies (Family Fringillidae)",
+        "images": [
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/AMGO_lb.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/AMGO_tg.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/AMGO_w_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/AMGO_f_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": false,
+        "common_name": "Brewer's Blackbird",
+        "family": "Blackbirds and Allies (Family Icteridae)",
+        "images": [
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/BRBL_gt.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/BRBL_f_gt.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/bcch1.mp3",
+        "common_name": "Black-capped Chickadee",
+        "family": "Chickadees (Family Paridae)",
+        "images": [
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/BCCH_lb.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/cewa1.mp3",
+        "common_name": "Cedar Waxwing",
+        "family": "Waxwings (Family Bombycillidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/CEDW_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/CEDW_j_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/MAWR01.mp3",
+        "common_name": "Marsh Wren",
+        "family": "Wrens (Family Troglodytidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/MAWR_ad_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/MAWR_ad2_gth.jpg"
+            },
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/MAWR_lb.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/PISI01.mp3",
+        "common_name": "Pine Siskin",
+        "family": "Finches and Allies (Family Fringillidae)",
+        "images": [
+            {
+                "contributor": "Ramona Delerme",
+                "contributor_url": "http://flickr.com/photos/11339106@N03/",
+                "src": "http://birdweb.org/birdweb/images/pisi_rom1_x.jpg"
+            },
+            {
+                "contributor": "Ramona Delerme",
+                "contributor_url": "http://flickr.com/photos/11339106@N03/",
+                "src": "http://birdweb.org/birdweb/images/pisi_rom2_x.jpg"
+            },
+            {
+                "contributor": "Ramona Delerme",
+                "contributor_url": "http://flickr.com/photos/11339106@N03/",
+                "src": "http://birdweb.org/birdweb/images/pisi_rom3_x.jpg"
+            },
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/PISI_lb.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/PISI_f_jh.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/PISI_jh.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/TOWA01.mp3",
+        "common_name": "Townsend's Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/TOWA_f_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/TOWA_m_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/TOWA_jf_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/eust1.mp3",
+        "common_name": "European Starling",
+        "family": "Starlings (Family Sturnidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/EUST_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/EUST_w_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/EUST_j_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/EUST_fl_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/amro1.mp3",
+        "common_name": "American Robin",
+        "family": "Thrushes (Family Turdidae)",
+        "images": [
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/AMRO_gt.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/AMRO_m_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/AMRO_f_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/AMRO_j_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/sosp2.mp3",
+        "common_name": "Song Sparrow",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/SOSP_ad_gth.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/SOSP_jh.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/WIFL01.mp3",
+        "common_name": "Willow Flycatcher",
+        "family": "Tyrant Flycatchers (Family Tyrannidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/WIFL_ad1_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/WIFL_ad2_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/WIFL_ad3_gth.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/WIFL_jh.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/WIFL_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/deju2.mp3",
+        "common_name": "Dark-eyed Junco",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/DEJU_f_gth.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/DEJU_tg.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/DEJU_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/DEJU_f_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/DEJU_j_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/GCKI01.mp3",
+        "common_name": "Golden-crowned Kinglet",
+        "family": "Kinglets (Family Regulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/GCKI_ad_gth.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/COYE01.mp3",
+        "common_name": "Common Yellowthroat",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/COYE_m_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/COYE_m2_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/COYE_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/COYE_f_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/WAVI01.mp3",
+        "common_name": "Warbling Vireo",
+        "family": "Vireos (Family Vireonidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/wavi_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/bewr1.mp3",
+        "common_name": "Bewick's Wren",
+        "family": "Wrens (Family Troglodytidae)",
+        "images": [
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/BEWR_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/HOFI01.mp3",
+        "common_name": "House Finch",
+        "family": "Finches and Allies (Family Fringillidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/HOFI_ad2_gth.jpg"
+            },
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/HOFI_m_lb.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/HOFI_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/HOFI_f_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/HOFI_yellow_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/WilsonsWarbler.mp3",
+        "common_name": "Wilson's Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/greglavaty229_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/wilsonwarbler_1_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/wilsonwarbler_2_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/wilsonwarbler_3_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/WIWA_f_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/WIWA_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/BHCO01.mp3",
+        "common_name": "Brown-headed Cowbird",
+        "family": "Blackbirds and Allies (Family Icteridae)",
+        "images": [
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/BHCO_jh.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/BHCO_f_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/BHCO_j_tg.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/BHCO_fl_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/vath1.mp3",
+        "common_name": "Varied Thrush",
+        "family": "Thrushes (Family Turdidae)",
+        "images": [
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/VATH_jh.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/VATH_f_jh.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/wcsp1.mp3",
+        "common_name": "White-crowned Sparrow",
+        "family": "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/WCSP_ad_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/WCSP_ad2_gth.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/WCSP_j_tg.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/WCSP_j2_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/WesternTanager.mp3",
+        "common_name": "Western Tanager",
+        "family": "Tanagers (Family Thraupidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/greglavaty215_x.jpg"
+            },
+            {
+                "contributor": "Lee Barnes",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/WETA_m_lb.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/WETA_jh.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/weta_1_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/weta_2_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/weta_3_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/WETA_w_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/WETA_f_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/cbch2.mp3",
+        "common_name": "Chestnut-backed Chickadee",
+        "family": "Chickadees (Family Paridae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/CBCH_ad_gth.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/stja1.mp3",
+        "common_name": "Steller's Jay",
+        "family": "Crows, Jays and Allies (Family Corvidae)",
+        "images": [
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/STJA_jh.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/bush1.mp3",
+        "common_name": "Bushtit",
+        "family": "Bushtits (Family Aegithalidae)",
+        "images": [
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/BUSH_f_tg.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/BUSH_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/YellowWarbler.mp3",
+        "common_name": "Yellow Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/YEWA_m_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/YEWA_m2_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/YEWA_m3_gth.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/yellowwarbler_1_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/yellowwarbler_2_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/yellowwarbler_3_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/YWAR_j_gl.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/basw1.mp3",
+        "common_name": "Barn Swallow",
+        "family": "Swallows (Family Hirundinidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/BARS_f_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/BARS_gl.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/BARS_fl_gt.jpg"
+            },
+            {
+                "contributor": "Glen Tepke",
+                "contributor_url": "http://www.pbase.com/gtepke",
+                "src": "http://birdweb.org/birdweb/images/BARS_j_gt.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/PSFL01.mp3",
+        "common_name": "Pacific-slope Flycatcher",
+        "family": "Tyrant Flycatchers (Family Tyrannidae)",
+        "images": [
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/PSFL_tg.jpg"
+            },
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/PSFL_jh.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/rbnu1.mp3",
+        "common_name": "Red-breasted Nuthatch",
+        "family": "Nuthatches (Family Sittidae)",
+        "images": [
+            {
+                "contributor": "Joseph V. Higbee",
+                "contributor_url": "http://www.pbase.com/jvhigbee/e_bonw",
+                "src": "http://birdweb.org/birdweb/images/RBNU_jh.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/RBNU_f_gl.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/RBNU_ffl_tg.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/SwainsonsThrush.mp3",
+        "common_name": "Swainson's Thrush",
+        "family": "Thrushes (Family Turdidae)",
+        "images": [
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/SWTH_gl.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/swthrush_3_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/swthrush_1_x.jpg"
+            },
+            {
+                "contributor": "Greg Lavaty",
+                "contributor_url": "http://www.pbase.com/dadas115",
+                "src": "http://birdweb.org/birdweb/images/swthrush_2_x.jpg"
+            }
+        ]
+    },
+    {
+        "call": "http://birdweb.org/birdweb/sounds/OCWA01.mp3",
+        "common_name": "Orange-crowned Warbler",
+        "family": "Warblers (Family Parulidae)",
+        "images": [
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/OCWA_ad_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/OCWA_ad2_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/OCWA_ad3_gth.jpg"
+            },
+            {
+                "contributor": "Gregg Thompson",
+                "contributor_url": "",
+                "src": "http://birdweb.org/birdweb/images/OCWA_ad4_gth.jpg"
+            }
+        ]
+    },
+    {
+        "call": false,
+        "common_name": "Western Scrub-Jay",
+        "family": "Crows, Jays and Allies (Family Corvidae)",
+        "images": [
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/WESJ_tg.jpg"
+            },
+            {
+                "contributor": "Tom Grey",
+                "contributor_url": "http://www.pbase.com/tgrey",
+                "src": "http://birdweb.org/birdweb/images/WESJ_j_tg.jpg"
+            }
+        ]
+    }
+]

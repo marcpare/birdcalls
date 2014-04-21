@@ -82,6 +82,14 @@
     
     <script>
     
+    $.ajax({
+      dataType: 'json',
+      url: 'data/anatidae.json',
+      success: function (data) {
+        console.log(data);
+      }
+    })
+    
     var $el = $('#js-container');
     var playTemplate = _.template($('#template-play').html());
     var revealedTemplate = _.template($('#template-revealed').html());
