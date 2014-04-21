@@ -19,7 +19,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
       
       <style>
-      body { padding-top: 20px; background-color: #eee;}
+      body { padding-top: 20px; background-color: #eee; padding-bottom: 40px;}
       .btn { margin-bottom: 20px;}
       .title-p { margin: 20px 0; }
       .main-menu { margin: 0; padding: 0;}
@@ -37,7 +37,12 @@
         right: 10px;
         color: #aaa;
       }
+      .topbar {
+        padding: 10px 0;
+      }
+      .topbar .btn i { color: #ccc;}
       img.full-width { width: 100%; }
+      
       #footer { padding: 10px 0; text-align: right;}
       .srt { background: #cc0000; display: inline-block; width: 10px; height: 10px; }
       </style>
@@ -45,7 +50,6 @@
   <body>
     <div class="container" >
       <div id="js-container"></div>
-      <div id="footer">app by <span class="srt"></span> <a href="http://www.smallredtile.com">small red tile</a></div>
     </div>
     
         
@@ -64,9 +68,15 @@
         </li>
         <% }) %>
       </ul>
+      <div id="footer">app by <span class="srt"></span> <a href="http://www.smallredtile.com">small red tile</a></div>
     </script>
     
     <script type="text/template" id="template-play">
+      
+      <div class="topbar">
+        <button id="js-home" class="btn btn-default"><i class="fa fa-chevron-left"></i> Home</button>
+      </div>
+      
       <audio id="demo" src="<%= call.call %>"></audio>
       <button id="js-play" onclick="document.getElementById('demo').play()"  class="btn btn-primary btn-block btn-lg">
         <i class="fa fa-play fa-4x"></i>
@@ -78,6 +88,11 @@
     </script>
     
     <script type="text/template" id="template-revealed">
+      
+      <div class="topbar">
+        <button id="js-home" class="btn btn-default"><i class="fa fa-chevron-left"></i> Home</button>
+      </div>
+      
       <button type="button" class="btn btn-primary btn-block btn-lg" id="js-next">Next</button>
       <h1><%= call.common_name %></h1>
       <p><img class="full-width" src="<%= call.image.src %>"></img></p>
@@ -130,6 +145,8 @@
         $('#js-pause').show();
       };
       
+      $('#js-home').on('click', showMainMenu);
+      
       $('#js-play').on('click', function () {
         document.getElementById('demo').play();
         revealPause();
@@ -146,6 +163,9 @@
     
     var showRevealed = function () {
       $el.html(revealedTemplate({call:call}));
+      
+      $('#js-home').on('click', showMainMenu);
+      
       $('#js-next').on('click', function () {
         showPlay();
       });
