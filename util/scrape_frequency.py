@@ -4,8 +4,10 @@
 # 13 of them are Shorebirds, Gulls, Auks and Allies (Order Charadriiformes)
 #
 # build list of songbirds:
-# python scrape_frequency.py passeriformes
-#
+# python scrape_frequency.py passeriformes1 > ../data/passeriformes1.json
+# python scrape_frequency.py passeriformes2 > ../data/passeriformes2.json
+# python scrape_frequency.py passeriformes3 > ../data/passeriformes3.json
+# python scrape_frequency.py passeriformes4 > ../data/passeriformes4.json
 
 from scrape_base import *
 import re
@@ -23,29 +25,36 @@ groups = {
          "Skuas and Jaegers (Family Stercorariidae)",
          "Auks, Murres and Puffins (Family Alcidae)"
     ],
-    'passeriformes': [
+    'passeriformes1': [
         "Tyrant Flycatchers (Family Tyrannidae)",
         "Shrikes (Family Laniidae)",  
         "Vireos (Family Vireonidae)",  
         "Crows, Jays and Allies (Family Corvidae)",  
         "Larks (Family Alaudidae)",  
         "Swallows (Family Hirundinidae)",  
-        "Chickadees (Family Paridae)",  
+        "Chickadees (Family Paridae)"
+    ],
+    'passeriformes2': [  
+        "Warblers (Family Parulidae)",  
         "Bushtits (Family Aegithalidae)",  
         "Nuthatches (Family Sittidae)",  
         "Creepers (Family Certhiidae)",  
         "Wrens (Family Troglodytidae)",  
-        "Dippers (Family Cinclidae)", 
+        "Dippers (Family Cinclidae)",
+        "Waxwings (Family Bombycillidae)",  
+        "Silky-flycatchers (Family Ptilogonatidae)"
+    ],
+    'passeriformes3': [ 
         "Kinglets (Family Regulidae)",  
         "Gnatcatchers (Family Sylviidae)",  
         "Thrushes (Family Turdidae)",  
         "Mockingbirds, Thrashers and Allies (Family Mimidae)",  
         "Starlings (Family Sturnidae)",  
-        "Accentors (Family Prunellidae)",  
-        "Wagtails and Pipits (Family Motacillidae)",  
-        "Waxwings (Family Bombycillidae)",  
-        "Silky-flycatchers (Family Ptilogonatidae)",  
-        "Warblers (Family Parulidae)",  
+        "Accentors (Family Prunellidae)",
+        "Wagtails and Pipits (Family Motacillidae)"
+    ],
+    'passeriformes4': [  
+        
         "Tanagers (Family Thraupidae)",  
         "Sparrows, Towhees, Longspurs and Allies (Family Emberizidae)",  
         "Grosbeaks, Buntings and Allies (Family Cardinalidae)",  

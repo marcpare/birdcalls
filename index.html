@@ -21,6 +21,7 @@
       <style>
       body { padding-top: 20px; background-color: #eee;}
       .btn { margin-bottom: 20px;}
+      .title-p { margin: 20px 0; }
       .main-menu { margin: 0; padding: 0;}
       .main-menu-item {
         cursor: pointer;
@@ -36,15 +37,22 @@
         right: 10px;
         color: #aaa;
       }
+      img.full-width { width: 100%; }
+      #footer { padding: 10px 0; text-align: right;}
+      .srt { background: #cc0000; display: inline-block; width: 10px; height: 10px; }
       </style>
   </head>
   <body>
-    <div class="container" id="js-container"></div>
+    <div class="container" >
+      <div id="js-container"></div>
+      <div id="footer">app by <span class="srt"></span> <a href="http://www.smallredtile.com">small red tile</a></div>
+    </div>
+    
         
     <script type="text/template" id="template-main-menu">
       <h2>Learn</h2>
       <h1>Vashon Bird Calls</h1>
-      <p>Simple audio flashcards of the most common birds on Vashon this April, May, &amp; June.</p>
+      <p class="title-p">Simple audio flashcards of the most common birds on Vashon this April, May, &amp; June.</p>
       
       <ul class="main-menu">
         <% _.each(groups, function (group) { %>
@@ -60,15 +68,20 @@
     
     <script type="text/template" id="template-play">
       <audio id="demo" src="<%= call.call %>"></audio>
-      <button onclick="document.getElementById('demo').play()"  class="btn btn-primary btn-block btn-lg">Play the Audio</button>
-      <button onclick="document.getElementById('demo').pause()" class="btn btn-primary btn-block btn-lg">Pause the Audio</button>
+      <button id="js-play" onclick="document.getElementById('demo').play()"  class="btn btn-primary btn-block btn-lg">
+        <i class="fa fa-play fa-4x"></i>
+      </button>
+      <button id="js-pause" onclick="document.getElementById('demo').pause()" class="btn btn-primary btn-block btn-lg">
+        <i class="fa fa-pause fa-4x"></i>
+      </button>
       <button type="button" class="btn btn-primary btn-block btn-lg" id="js-reveal">Reveal</button>
     </script>
     
     <script type="text/template" id="template-revealed">
-      <h1><%= call.common_name %></h1>
-      <p><img src="<%= _.first(call.images).src %>"></img></p>
       <button type="button" class="btn btn-primary btn-block btn-lg" id="js-next">Next</button>
+      <h1><%= call.common_name %></h1>
+      <p><img class="full-width" src="<%= call.image.src %>"></img></p>
+      <p>Photo by <a href="<%= call.image.contributor_url %>"><%= call.image.contributor %></a></p>
     </script>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -87,11 +100,17 @@
     var mainMenuTemplate = _.template($('#template-main-menu').html());
     var call;
     var nextCall = (function () {
-      var i = 0, k;
+      var i = 0, k, m, ret;
       return function () {
         do { k = _.random(BC.calls.length-1); } while (k == i);
         i = k;
-        return BC.calls[i];        
+        
+        // choose a random image
+        ret = BC.calls[i]
+        m = _.random(ret.images.length-1);
+        ret.image = ret.images[m];
+        
+        return ret;        
       }
     }());
     
@@ -101,6 +120,28 @@
       $('#js-reveal').on('click', function () {
         showRevealed();
       });
+      
+      var revealPlay = function () {
+        $('#js-play').show();
+        $('#js-pause').hide();
+      };
+      var revealPause = function () {
+        $('#js-play').hide();
+        $('#js-pause').show();
+      };
+      
+      $('#js-play').on('click', function () {
+        document.getElementById('demo').play();
+        revealPause();
+      });
+      
+      $('#js-pause').on('click', function () {
+        document.getElementById('demo').pause();
+        revealPlay();
+      });      
+      
+      revealPlay();
+      
     };
     
     var showRevealed = function () {
@@ -114,10 +155,28 @@
       $el.html(mainMenuTemplate({
         groups: [
         {
-          title: 'Song birds',
-          subtitle: '49 common song birds',
+          title: 'Song birds 1',
+          subtitle: '6 common song birds',
           subtitle2: 'Flycatchers, Songbirds and Allies (Order Passeriformes)',
-          url: 'data/passeriformes.json'
+          url: 'data/passeriformes3.json'
+        },
+        {
+          title: 'Song birds 2',
+          subtitle: '14 common song birds',
+          subtitle2: 'Flycatchers, Songbirds and Allies (Order Passeriformes)',
+          url: 'data/passeriformes2.json'
+        },
+        {
+          title: 'Song birds 3',
+          subtitle: '13 common song birds',
+          subtitle2: 'Flycatchers, Songbirds and Allies (Order Passeriformes)',
+          url: 'data/passeriformes1.json'
+        },
+        {
+          title: 'Song birds 4',
+          subtitle: '16 common song birds',
+          subtitle2: 'Flycatchers, Songbirds and Allies (Order Passeriformes)',
+          url: 'data/passeriformes4.json'
         },
         {
           title: 'Shore birds',
