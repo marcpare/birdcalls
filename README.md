@@ -4,6 +4,14 @@ birds
 Next up
 ---
 
+- Set up /family/new API call
+- Refactor scraper to have pluggable output for scraping output
+--> one of output targets is HTTP REST API
+--> one of output targets is stdout
+- Send families to REST api
+
+
+
 - sql data model
 -- generate CSV to import bird data from JSON? from Cached?
 
@@ -11,6 +19,8 @@ Next up
 (1) More calls for each bird
 (2) Flip through pics for each bird
 (3) Easily change date range for birds
+(4) Yoga Mode using Chrome speech API : http://updates.html5rocks.com/2014/01/Web-apps-that-talk---Introduction-to-the-Speech-Synthesis-API
+(5) iFrame with Cornell info (_or_ scrape it and render it more nicely for mobile)
 
 Another way to viz the main menu?
 Another way to cluster the collections?

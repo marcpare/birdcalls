@@ -1,6 +1,7 @@
 util/cache/
 .DS_Store
 cache/
+data/
 *.pyc
 .vagrant/
 app/env/
