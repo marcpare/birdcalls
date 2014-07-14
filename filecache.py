@@ -12,7 +12,7 @@ class FileCache(object):
         m.update(key)
         return os.path.join(self.base_dir, m.hexdigest())
 
-    def cache_put(self, key, value):
+    def put(self, key, value):
         """ Value should be a string """
         f = open(self.path(key), 'w')
         f.write(value.encode('utf8'))
