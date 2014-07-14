@@ -9,7 +9,7 @@
 # python scrape_frequency.py passeriformes3 > ../data/passeriformes3.json
 # python scrape_frequency.py passeriformes4 > ../data/passeriformes4.json
 
-from scrape_base import *
+from base import *
 import re
 
 groups = {
