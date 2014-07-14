@@ -135,7 +135,6 @@ if __name__ == "__main__":
                 print "%s lives in %s" % (bird_name, h)
                 cluster = clusters.get(h, [])
                 cluster.append(bird) # plop the whole entity for now
-                cluster.append(item['url_bird'])
                 clusters[h] = cluster
         
         clusters = [
