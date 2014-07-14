@@ -87,20 +87,65 @@ if __name__ == "__main__":
          
          
          checklist = db.get('checklists', checklist_name)
-         print checklist.keys()
-         for item in checklist['items']:
-             if item['frequencies'][month_index] in frequency:
-                 print item['url_bird']
+         
+         return [item for item in checklist['items']
+             if item['frequencies'][month_index] in frequency]         
     
-    def birdweb(cache, bird):
-        url = "http://www.birdweb.org/birdweb/bird/%s" % bird
-        content = cached_request(cache, url, False)
+    def birdweb(bird):
         scraper = scrapers.BirdWebScraper(cached_requester)
-        ret = scraper.scrape_species_birdweb(content)
-        print ret
+        return scraper.species(bird)
     
-    def allaboutbirds(cache, bird):
-        pass
+    def allaboutbirds(bird):
+        scraper = scrapers.AllAboutBirdsScraper(cached_requester)
+        return scraper.species(bird)
+        
+    def detail_checklist(db, checklist_name):
+        checklist = db.get('checklists', checklist_name)
+        for item in checklist['items']:
+            url_bird = item['url_bird']
+            bird_name = url_bird.split('/')[-1]
+            bird = db.get('birds', bird_name)
+            
+            print bird_name
+            
+            try:
+                a = birdweb(bird_name)
+                bird.update(a)
+            except:
+                print 'FAILED BW' + bird_name
+                
+            try:
+                b = allaboutbirds(bird_name)
+                bird.update(b)
+            except:
+                print 'FAILED AAB' + bird_name
+            
+            db.post('birds', bird_name, bird)
+    
+    # Clusters by Habitat for a given month and frequencies
+    def cluster_checklist(db, checklist_name, month, frequency):        
+        items = birds_in(db, checklist_name, month, frequency)
+        
+        clusters = {}
+        for item in items:
+            bird_name = item['url_bird'].split('/')[-1]
+            bird = db.get('birds', bird_name)
+            if 'habitat' in bird:
+                h = bird['habitat']
+                print "%s lives in %s" % (bird_name, h)
+                cluster = clusters.get(h, [])
+                cluster.append(bird) # plop the whole entity for now
+                cluster.append(item['url_bird'])
+                clusters[h] = cluster
+        
+        clusters = [
+            {
+                'name': name,
+                'birds': birds
+            } for (name, birds) in clusters.items()
+        ]
+        
+        db.post('habitat_clusters', checklist_name, clusters)
     
     def main(cmd_args):
         import optparse
@@ -117,12 +162,16 @@ if __name__ == "__main__":
         if cmd == 'populate_checklist':
             populate_checklist(cache, db, args[1])
         if cmd == 'birds_in':
-            birds_in(db, args[1], args[2], args[3])
+            pp.pprint(birds_in(db, args[1], args[2], args[3]))
         if cmd == 'bw':
-            birdweb(cache, args[1])
+            pp.pprint(birdweb(cache, args[1]))
         if cmd == 'aab':
-            allaboutbirds(cache, args[1])
-            
+            pp.pprint(allaboutbirds(args[1]))
+        if cmd == 'detail_checklist':
+            detail_checklist(db, args[1])
+        if cmd == 'cluster_checklist':
+            cluster_checklist(db, args[1], args[2], args[3])
+        
     av = sys.argv[1:]
     main(av)
     
