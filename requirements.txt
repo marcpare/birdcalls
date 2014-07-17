@@ -1,3 +1,4 @@
 nose
 beautifulsoup4
 requests
+Wand

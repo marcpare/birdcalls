@@ -2,6 +2,7 @@ util/cache/
 .DS_Store
 cache/
 data/
+cdn/
 *.pyc
 .vagrant/
 app/env/

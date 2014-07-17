@@ -18,6 +18,7 @@ if __name__ == "__main__":
     import glob
     from filedb import FileDB
     from filecache import FileCache
+    from filecdn import FileCDN
     import config
     import pprint
     import scrapers
@@ -27,6 +28,7 @@ if __name__ == "__main__":
     db = FileDB(config.DATA_DIR)
     cache = FileCache(config.CACHE_DIR)
     pp = pprint.PrettyPrinter(indent=2)
+    cdn = FileCDN(config.CDN_DIR)
     
     # Turns a full name of a bird into the short name for
     # URLs. Maps to urls on BW and AAB.
@@ -146,6 +148,25 @@ if __name__ == "__main__":
         
         db.post('habitat_clusters', checklist_name, clusters)
     
+    def cdn_cluster(db, cdn, cluster_name, size):
+        cluster = db.get('habitat_clusters', cluster_name)        
+        
+        def ensure_raw(src):
+            cdn.download_if_missing(src)
+        
+        def generate_sizes(src):
+            cdn.scale(src, size)
+        
+        # Note: this is where a SQL query would be much nicer
+        for habitat in cluster:
+            for bird in habitat['birds']:
+                for image in bird['images']:
+                    print "Saving %s" % image['src']
+                    ensure_raw(image['src'])
+                    generate_sizes(image['src'])
+                    
+                    # save the generated url in the cluster
+    
     def main(cmd_args):
         import optparse
         usage = "\n%prog [options] command [input-file-pattern]\n" + cmd_doc
@@ -170,6 +191,8 @@ if __name__ == "__main__":
             detail_checklist(db, args[1])
         if cmd == 'cluster_checklist':
             cluster_checklist(db, args[1], args[2], args[3])
+        if cmd == 'cdn_cluster':
+            cdn_cluster(db, cdn, args[1], args[2])
         
     av = sys.argv[1:]
     main(av)
