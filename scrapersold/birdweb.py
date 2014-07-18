@@ -12,8 +12,6 @@
 # ls -l birds | wc -l
 # >> 492 # There are 492 bird species in Washington!
 #   
-#
-#
 
 from bs4 import BeautifulSoup
 import os

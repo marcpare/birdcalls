@@ -152,10 +152,10 @@ if __name__ == "__main__":
         cluster = db.get('habitat_clusters', cluster_name)        
         
         def ensure_raw(src):
-            cdn.download_if_missing(src)
+            return cdn.download_if_missing(src)
         
         def generate_sizes(src):
-            cdn.scale(src, size)
+            return cdn.scale(src, size)
         
         # Note: this is where a SQL query would be much nicer
         for habitat in cluster:
@@ -163,9 +163,28 @@ if __name__ == "__main__":
                 for image in bird['images']:
                     print "Saving %s" % image['src']
                     ensure_raw(image['src'])
-                    generate_sizes(image['src'])
+                    sized_fn = generate_sizes(image['src'])
                     
+                    image['cdn_src'] = sized_fn
+                    
+                    print sized_fn
                     # save the generated url in the cluster
+                    # This is really brittle! Saving the folder
+                    # structure here.
+        db.post('habitat_clusters', cluster_name, cluster)
+    
+    def check_cluster(db, cluster_name):
+        cluster = db.get('habitat_clusters', cluster_name)        
+        image_count = 0
+        for habitat in cluster:
+            for bird in habitat['birds']:
+                for image in bird['images']:
+                    if not 'cdn_src' in image:
+                        print "Missing CDN image for %s" % bird['common_name']
+                    else:
+                        image_count += 1
+        print "Images counted %s" % image_count
+        print "Finished cluster check"
     
     def main(cmd_args):
         import optparse
@@ -193,6 +212,8 @@ if __name__ == "__main__":
             cluster_checklist(db, args[1], args[2], args[3])
         if cmd == 'cdn_cluster':
             cdn_cluster(db, cdn, args[1], args[2])
+        if cmd == 'check_cluster':
+            check_cluster(db, args[1])
         
     av = sys.argv[1:]
     main(av)
