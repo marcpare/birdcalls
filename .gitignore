@@ -3,6 +3,7 @@ util/cache/
 cache/
 data/
 cdn/
+tmp/
 *.pyc
 .vagrant/
 app/env/
